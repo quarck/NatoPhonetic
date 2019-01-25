@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="ph.quarck.github.com.nph.NatoPhonetic"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/letter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:padding="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Check"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:padding="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        />
+
+</LinearLayout>

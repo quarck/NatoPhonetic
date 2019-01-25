@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Nph</string>
+    <string name="title_activity_nato_phonetic">NatoPhonetic</string>
+    <string name="title_activity_morse">morse</string>
+    <string name="title_activity_morse_numbers">MorseNumbers</string>
+    <string name="nato_alphabet">Nato Alphabet</string>
+    <string name="morse_code_letters">Morse Letters</string>
+    <string name="morse_code_numbers">Morse Numbers</string>
 </resources>

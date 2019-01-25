@@ -6,36 +6,52 @@
     tools:context="ph.quarck.github.com.nph.MainActivity"
     android:orientation="vertical">
 
+
     <TextView
-        android:id="@+id/letter"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:padding="40dp"
         android:layout_gravity="center_horizontal"
-        android:textAlignment="center"
-        android:textSize="40dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Choose activity:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonNato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/nato_alphabet"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
         />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Check"
-        android:padding="20dp"
-        android:layout_gravity="center_horizontal"
-        android:textSize="40dp"/>
-
-    <TextView
-        android:id="@+id/name"
+        android:id="@+id/buttonMorseLetters"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:padding="40dp"
+        android:layout_weight="1"
+        android:text="@string/morse_code_letters"
+        android:padding="20dp"
         android:layout_gravity="center_horizontal"
-        android:textAlignment="center"
-        android:textSize="40dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonMorseNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/morse_code_numbers"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
         />
 
 </LinearLayout>
