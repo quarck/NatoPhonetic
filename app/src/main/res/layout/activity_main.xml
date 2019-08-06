@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context="ph.quarck.github.com.nph.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#000">
 
 
     <TextView
@@ -16,7 +17,10 @@
         android:layout_weight="1"
         android:padding="20dp"
         android:text="Choose activity:"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:background="#000"
+        android:textColor="#e30"
+        />
 
     <Button
         android:id="@+id/buttonNato"
@@ -28,6 +32,9 @@
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
         android:layout_margin="10dp"
+        android:background="#000"
+        android:textColor="#f70"
+
         />
 
     <Button
@@ -40,6 +47,9 @@
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
         android:layout_margin="10dp"
+        android:background="#000"
+        android:textColor="#f70"
+
         />
 
     <Button
@@ -52,6 +62,9 @@
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
         android:layout_margin="10dp"
+        android:background="#000"
+        android:textColor="#f70"
+
         />
 
 </LinearLayout>
