@@ -27,6 +27,8 @@ abstract class PracticeActivityBase : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_practice)
 
+        getWindow().setNavigationBarColor(getResources().getColor(android.R.color.black));
+
         mapping = CreateMapping()
 
         letter = findViewById(R.id.letter) as TextView

@@ -15,6 +15,9 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        getWindow().setNavigationBarColor(getResources().getColor(android.R.color.black));
+
+
         (findViewById(R.id.buttonNato) as Button).setOnClickListener {
             startActivity(Intent(this, NatoPhonetic::class.java))
         }

@@ -7,6 +7,14 @@
     android:orientation="vertical"
     android:background="#000" >
 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="ph.quarck.github.com.nph.NatoPhonetic"
+        android:orientation="vertical"
+        android:background="#000" >
+
     <TextView
         android:id="@+id/letter"
         android:layout_width="match_parent"
@@ -45,5 +53,5 @@
         android:background="#000"
         android:textColor="#e30"
         />
-
+    </LinearLayout>
 </LinearLayout>
