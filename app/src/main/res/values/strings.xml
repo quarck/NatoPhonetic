@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Nato Phonetic</string>
-    <string name="title_activity_nato_phonetic">NatoPhonetic</string>
-    <string name="title_activity_morse">Morse Letters</string>
-    <string name="title_activity_morse_numbers">Morse Numbers</string>
-    <string name="nato_alphabet">Nato Alphabet</string>
-    <string name="morse_code_letters">Morse Letters</string>
-    <string name="morse_code_numbers">Morse Numbers</string>
+    <string name="app_name">N Phonetic</string>
+    <string name="title_activity_nato_phonetic">N.Phonetic</string>
+    <string name="title_activity_morse">Morse Direct</string>
+    <string name="title_activity_morse_numbers">Morse Reverse</string>
+    <string name="nato_alphabet">N Alphabet</string>
+    <string name="morse_code_letters">Morse Direct</string>
+    <string name="morse_code_numbers">Morse Reverse</string>
 </resources>
